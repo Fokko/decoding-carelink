@@ -1317,7 +1317,7 @@ class ReadGlucoseHistory (ReadSensorHistoryData):
     >>> ReadGlucoseHistory(params=[3]).params
     [3]
   """
-  descr = "read glucose history"
+  descr = "Read glucose history"
   code = 154
   params = [ ]
 
@@ -1334,7 +1334,7 @@ class ReadISIGHistory (ReadSensorHistoryData):
     [0, 0, 0, 2]
 
   """
-  descr = "read ISIG history"
+  descr = "Read ISIG history"
   code = 155
   params = [ ]
   maxRecords = 32
