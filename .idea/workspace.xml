@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160c6710-b3d9-4e23-a8e0-631d0e24e99d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decocare/commands.py" afterPath="$PROJECT_DIR$/decocare/commands.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/cgm.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download-all.sh" afterPath="$PROJECT_DIR$/download-all.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/mm-glucose.py" afterPath="$PROJECT_DIR$/bin/mm-glucose.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/mm-history.py" afterPath="$PROJECT_DIR$/bin/mm-history.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="decoding-carelink-fokko.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,23 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mm-history.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bin/mm-history.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.91401273" vertical-offset="740" max-vertical-offset="1530">
-              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-              <folding>
-                <element signature="e#47#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mm-glucose.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/mm-glucose.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1584">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="1350">
+              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
               <folding>
                 <element signature="e#47#89#0" expanded="true" />
               </folding>
@@ -56,21 +43,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mm-send-comm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/mm-send-comm.py">
+      <file leaf-file-name="mm-history.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/mm-history.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1584">
+              <caret line="60" column="19" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="19" />
+              <folding>
+                <element signature="e#47#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download-all.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/download-all.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1978022" vertical-offset="0" max-vertical-offset="910">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cli.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decocare/helpers/cli.py">
+      <file leaf-file-name="mm-decode-history-page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/mm-decode-history-page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3247" max-vertical-offset="3996">
-              <caret line="217" column="17" selection-start-line="217" selection-start-column="17" selection-end-line="217" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="2592">
+              <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -107,8 +106,9 @@
         <option value="$PROJECT_DIR$/decocare/history.py" />
         <option value="$PROJECT_DIR$/decocare/commands.py" />
         <option value="$PROJECT_DIR$/list_cgm.py" />
-        <option value="$PROJECT_DIR$/bin/mm-glucose.py" />
         <option value="$PROJECT_DIR$/bin/mm-history.py" />
+        <option value="$PROJECT_DIR$/bin/mm-glucose.py" />
+        <option value="$PROJECT_DIR$/download-all.sh" />
       </list>
     </option>
   </component>
@@ -117,10 +117,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1739" />
-    <option name="y" value="306" />
-    <option name="width" value="1307" />
-    <option name="height" value="744" />
+    <option name="x" value="59" />
+    <option name="y" value="24" />
+    <option name="width" value="1621" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -195,7 +195,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../diabetes-display" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -516,15 +516,15 @@
       <workItem from="1433274268645" duration="4361000" />
       <workItem from="1433278657798" duration="4434000" />
       <workItem from="1433316521800" duration="338000" />
-      <workItem from="1433316897067" duration="7862000" />
+      <workItem from="1433316897067" duration="11441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17785000" />
+    <option name="totallyTimeSpent" value="21364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1739" y="306" width="1307" height="744" extended-state="6" />
+    <frame x="59" y="24" width="1621" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -540,7 +540,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Clojure REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20111042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -780,17 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/mm-decode-history-page.py">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75819033" vertical-offset="1440" max-vertical-offset="2592">
-          <caret line="112" column="38" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list_cgm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0670826" vertical-offset="0" max-vertical-offset="972">
@@ -817,6 +806,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/decocare/helpers/cli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91575664" vertical-offset="3247" max-vertical-offset="3996">
+          <caret line="217" column="17" selection-start-line="217" selection-start-column="17" selection-end-line="217" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/mm-send-comm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16848674" vertical-offset="0" max-vertical-offset="641">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/list_history.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2358">
@@ -833,18 +838,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/mm-send-comm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/bin/mm-decode-history-page.py">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decocare/helpers/cli.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3247" max-vertical-offset="3996">
-          <caret line="217" column="17" selection-start-line="217" selection-start-column="17" selection-end-line="217" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="2592">
+          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -854,8 +854,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1584">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="1350">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
           <folding>
             <element signature="e#47#89#0" expanded="true" />
           </folding>
@@ -867,11 +867,19 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91401273" vertical-offset="740" max-vertical-offset="1530">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1584">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="19" />
           <folding>
             <element signature="e#47#84#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download-all.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1978022" vertical-offset="0" max-vertical-offset="910">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
